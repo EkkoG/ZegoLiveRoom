@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZegoLiveRoom_Example' do
+  pod 'ZegoLiveRoom', :path => '../'
+
+  target 'ZegoLiveRoom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

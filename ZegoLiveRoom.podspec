@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZegoLiveRoom'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZegoLiveRoom.'
+  s.version          = '1.0.0'
+  s.summary          = 'Zego 直播 SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Zego 直播 SDK
                        DESC
 
   s.homepage         = 'https://github.com/cielpy/ZegoLiveRoom'
@@ -30,13 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZegoLiveRoom/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZegoLiveRoom' => ['ZegoLiveRoom/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = ['UIKit', 'AVFoundation', 'SystemConfiguration', 'Security', 'AudioToolbox', 'CoreMedia', 'VideoToolbox', 'CoreTelephony']
+  s.libraries = 'c++', 'iconv'
+
+  s.vendored_framework		= "ZegoLiveRoom/Library/ZegoLiveRoom.framework"
 end

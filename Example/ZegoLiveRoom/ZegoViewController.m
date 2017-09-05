@@ -7,6 +7,7 @@
 //
 
 #import "ZegoViewController.h"
+#import <ZegoLiveRoom/ZegoLiveRoom.h>
 
 @interface ZegoViewController ()
 

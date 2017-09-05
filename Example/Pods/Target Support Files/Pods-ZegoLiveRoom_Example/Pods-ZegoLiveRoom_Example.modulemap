@@ -1,0 +1,6 @@
+framework module Pods_ZegoLiveRoom_Example {
+  umbrella header "Pods-ZegoLiveRoom_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

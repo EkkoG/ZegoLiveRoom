@@ -1,0 +1,36 @@
+{
+  "name": "ZegoLiveRoom",
+  "version": "1.0.0",
+  "summary": "Zego 直播 SDK",
+  "description": "Zego 直播 SDK",
+  "homepage": "https://github.com/cielpy/ZegoLiveRoom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cielpy": "beijiu572@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/cielpy/ZegoLiveRoom.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "SystemConfiguration",
+    "Security",
+    "AudioToolbox",
+    "CoreMedia",
+    "VideoToolbox",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "c++",
+    "iconv"
+  ],
+  "vendored_frameworks": "ZegoLiveRoom/Library/ZegoLiveRoom.framework"
+}

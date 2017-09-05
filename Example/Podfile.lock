@@ -1,0 +1,16 @@
+PODS:
+  - ZegoLiveRoom (1.0.0)
+
+DEPENDENCIES:
+  - ZegoLiveRoom (from `../`)
+
+EXTERNAL SOURCES:
+  ZegoLiveRoom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZegoLiveRoom: 9592b8d08fdaae267f06c469dd771ec05d2ab196
+
+PODFILE CHECKSUM: 392a44a29baf22b36e5f2f85ac3c10332b1952ce
+
+COCOAPODS: 1.2.1
